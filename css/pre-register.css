@@ -1,0 +1,75 @@
+body{
+    background-color: #525050;
+}
+
+.pre-register-logo{
+    width: 0px;
+    height: 0px;
+    margin-left: 620px;
+    margin-top: 20px;
+    margin-bottom: -50px
+}
+
+.register{
+    margin-top: 300px;
+    margin-left: 600px;
+
+}
+
+.register-form{
+    width: 300px;
+    height: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #525050;
+    border-color: #a0e418;
+    border-radius: 5px;
+    color: white;
+    border-right: #525050;
+    border-left: #525050;
+}
+
+.register-font{
+    color: white;
+}
+
+#registerbtn{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px){
+
+    #logo{
+        margin-left: 250px;
+    }
+
+    .register{
+        margin-left: 230px
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    #logo{
+        margin-left: 30px;
+    }
+
+    .register{
+        margin-left: 30px;
+
+    }
+
+    .registerform{
+        width: 250px;
+        height: 25px;
+
+    }
+
+    #registerbtn{
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+
+}

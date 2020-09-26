@@ -1,0 +1,189 @@
+body{
+    background-color: #525050;
+}
+
+.garis{
+    margin-top: 250px;
+    margin-bottom: -210px;
+}
+
+#logo{
+    margin-left: 650px;
+}
+
+#image1{
+   margin-top: 30px;
+   margin-left: 40px;
+   width:700px;
+    height:400px;
+}
+
+#title1{
+    color: #a0e418;
+    margin-left: 800px;
+    margin-top: -430px;
+    font-size: 25px;
+}
+
+#words1{
+    color: white;
+    margin-left: 800px;
+    font-size: 23px;
+}
+
+#image2{
+    margin-top: 250px;
+    margin-left: 40px;
+    width:700px;
+     height:400px;
+}
+
+#title2{
+    color: #a0e418;
+    margin-left: 800px;
+    margin-top: -430px;
+    font-size: 25px;
+}
+
+#words2{
+    margin-left: 800px;
+    color: white;
+    font-size: 23px;
+}
+
+#image3{
+    margin-top: 250px;
+    margin-left: 40px;
+    width:700px;
+    height:400px;
+}
+
+#title3{
+    color: #a0e418;
+    margin-left: 800px;
+    margin-top: -430px;
+    font-size: 25px;
+}
+
+#words3{
+    margin-left: 800px;
+    color: white;
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 800px){
+
+    .garis{
+        margin-top: 20px;
+      
+    }
+
+    #logo{
+        margin-left: 300px;
+    }
+
+    #title1{
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #words1{
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #title2{
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #words2{
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #title3{
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #words3{
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 320px){
+
+    .garis{
+        margin-top: 20px;
+      
+    }
+
+    #logo{
+        margin-left: 50px; 
+    }
+
+    #image1 img{
+        width: 260px;
+        height: 200px;
+        margin-left: -20px;
+    }
+
+    #title1{
+        margin-left: 0px;
+        margin-top: -200px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #words1{
+        margin-left: 20px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    #image2 img{
+        width: 260px;
+        height: 200px;
+        margin-left: -20px;
+    }
+
+    #title2{
+        margin-left: 0px;
+        margin-top: -200px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #words2{
+        margin-left: 19px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    #title3{
+        margin-left: 0px;
+        margin-top: -200px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #words3{
+        margin-left: 20px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    #image3 img{
+        width: 260px;
+        height: 200px;
+        margin-left: -20px;
+    }

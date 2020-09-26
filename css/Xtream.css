@@ -1,0 +1,243 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS Header */
+
+h3{
+    font-family:"Verdana Regular";
+    color: white;
+    margin-left: 1360px;
+    font-size: 22px;
+    
+}
+
+#background1 h3{
+    position: relative;
+    margin-top: -150px;
+}
+
+ a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    background-color: #a0e418;
+    width: 1478px;
+    height: 150px;
+    display: inline-block;
+    margin-top: -6px;
+    
+}
+
+li{
+    
+    list-style: none;
+    float: left;
+    padding-left: 1px;
+    padding-right: 150px;
+    padding-top: 50px;
+    margin-top: -1px;
+    margin-bottom: -3px;
+    font-family: "Verdana Regular";
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+li img{
+    width: 180px;
+    height: 120px;
+    margin-right: 40px;
+    margin-top: -35px;
+    margin-bottom: -5px;
+    margin-left: 50px;
+}
+
+.image1{
+    margin-top: -25px;
+}
+
+/* CSS Article */
+.column{
+    background-color: #525050;
+    width: 1518px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+/* Lore */
+#image2{
+    margin-left: 340px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+#words1{
+    font-family: "Verdana Regular";
+    color: white;
+    float: right;
+    margin-top: -370px;
+    margin-right: 452px;
+    font-size: 25px;
+}
+
+#title1{
+    color: white;
+    float: right;
+    font-family: "Verdana Bold";
+    margin-right: 610px;
+    margin-top: -25px;
+    font-size: 28px;
+    
+}
+
+#words1 img{
+    margin-left: 60px;
+}
+
+/* Ini untuk mengatur ukuran size screen kalau ukuran size screen nya di perkecil dan harus di paling bawah */
+
+@media only screen and (max-width: 800px){
+
+   
+    #background1 img{
+        width: 800px;
+    }
+
+    #background1 h3{
+        margin-left: 620px;
+        font-size: 22px;
+    }
+
+    ul{
+        width: 760px;
+       height: 120px;
+    }
+
+    li img{
+        width: 130px;
+        height: 100px;
+       padding-top: 1px;
+      margin-left: 25px;
+    
+    }
+
+    li{
+        font-size: 25px;
+        padding-right: 55px;
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+
+    .image1 img{
+        width: 800px;
+        height: 350px;
+        margin: -25 0 0px;
+    }
+
+    .column {
+        width: 800px;
+    }
+
+    .column #image2 img{
+        width: 200px;
+        height: 200px;
+        margin-left: -200px;
+    }
+
+    .column #title1 h1{
+        font-size: 20px;
+        margin-top: -180px;
+        margin-right: -500px;
+        margin-left: 190px;
+    }
+
+    .column #words1 p{
+        font-size: 14px;
+        margin-left: 33px;
+        margin-top: 190px;
+        margin-right: -300px;
+    }
+    
+    .column #image3 img{
+        width: 85px;
+        height: 40px;
+        margin-left: 65px;
+        margin-right: -300px;
+        
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+
+   
+    #background1 img{
+        width: 320px;
+    }
+
+    #background1 h3{
+        margin-left: 190px;
+        font-size: 20px;
+    }
+
+    ul{
+        width: 280px;
+       height: 80px;
+    }
+
+    li img{
+        width: 70px;
+        height: 60px;
+       padding-top: 10px;
+      margin-left: 3px;
+        margin-right: 20px;
+    }
+
+    li{
+        font-size: 12px;
+        padding-right: 35px;
+        margin-left: -28px;
+        margin-top: -20px;
+    }
+
+    .image1 img{
+        width: 320px;
+        height: 200px;
+        margin: -25 0 0px;
+    }
+
+    .column {
+        width: 320px;
+    }
+
+    .column #image2 img{
+        width: 100px;
+        height: 150px;
+        margin-left: -300px;
+    }
+
+    .column #title1 h1{
+        font-size: 15px;
+        margin-top: -125px;
+        margin-left: 430px;
+    }
+
+    .column #words1 p{
+        font-size: 10px;
+        margin-left: 272px;
+        margin-top: 240px;
+        margin-right: -500px;
+    }
+    
+    .column #image3 img{
+        width: 40px;
+        height: 20px;
+        margin-left: 300px;
+        margin-right: -500px;
+        
+    }
+}

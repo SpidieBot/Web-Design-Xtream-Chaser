@@ -1,0 +1,390 @@
+/*
+Hsanya untuk melakukan universal pada tiap website dan devise
+scrool ke bawah untuk melihat my code
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+body {
+ line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+ display:block;
+}
+nav ul {
+ list-style:none;
+}
+blockquote, q {
+ quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content:'';
+ content:none;
+}
+a {
+ margin:0;
+ padding:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+ background-color:#ff9;
+ color:#000;
+ text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+ background-color:#ff9;
+ color:#000;
+ font-style:italic;
+ font-weight:bold;
+}
+del {
+ text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+}
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+ display:block;
+ height:1px;
+ border:0;
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+}
+input, select {
+ vertical-align:middle;
+}
+
+/* my code */
+
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: #525050
+}
+header {
+  background-color: #a0e418;
+  width : 100%;
+  height : 100px;
+}
+header .header-pre-register {
+  display: flex;
+  justify-content: flex-end;
+  /* padding-top::5px;
+  padding-right: 20px; */
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  padding-top: 10px;
+  padding-right: 20px
+}
+header .img-logo {
+  display: flex;
+  justify-content: center;
+}
+header .header-logo {
+  /* margin: auto 0; */
+  width: auto;
+  height: 75px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #a0e418;
+  position: sticky;
+  top: 0;
+  box-shadow: 1px 20px 10px #2f2f2f;
+}
+nav ul {
+  vertical-align: middle;
+  width: fit-content;
+  weight:100%;
+  padding-top: 10px
+}
+nav ul li {
+  float: left;
+  border-right:1px solid white;
+  list-style: none;
+  padding: 10px 15px
+}
+nav ul li .nav-logo-img{
+  visibility: hidden;
+  width: auto;
+  height: 1px;
+  border-right: none;
+}
+nav ul li:first-child{
+  border-right: none;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+nav ul li a{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+footer {
+  background-color: #7fb414;
+  width : 100%;
+  height : 100px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  list-style: none;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+footer .footer-media {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 25px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+footer .footer-media-img{
+  width: auto;
+  height: 25px;
+}
+footer .footer-copy {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  font-size: 8px;
+  padding-top: 10px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+  header {
+    height : 40px;
+  }
+  header .header-pre-register {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 60px;
+  }
+  header .img-logo {
+    visibility: hidden;
+    display: block;
+    margin: 0;
+    padding-right: 30px;
+    text-align: left;
+    float: left;
+  }
+  header .header-logo {
+    /* margin: auto 0; */
+    width: auto;
+    height: 1px;
+  }
+  nav {
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    top: 0;
+  }
+  nav ul {
+    vertical-align: middle;
+    width: fit-content;
+    weight:100%;
+    padding-top: 10px
+  }
+  nav ul li {
+    float: left;
+    padding: 10px 20px
+  }
+  nav ul li .nav-logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    height: 50px;
+    border-right: none;
+    padding-right: 20px;
+  }
+  nav ul li:first-child{
+    margin-left: 20px;
+  }
+  nav ul li a{
+    font-size: 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  footer .footer-media-img{
+    height: 30px;
+  }
+  footer .footer-copy {
+    font-size: 10px;
+  }
+}
+
+/* cari sesimu */
+
+/* home */
+
+/* Character */
+main section p {
+  font-family: 'Oxygen', sans-serif;
+  text-align: justify;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 12px;
+  padding: 10px 0;
+}
+main section h3 {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-shadow: 5px 5px 5px #202020;
+
+}
+main section {
+  display: block;
+  margin: 0 auto;
+  padding: 25px 25px;
+  color: white;
+  width: fit-content;
+  padding: 10px 20px;
+}
+main section .char-box-char {
+
+  width: 240px;
+  height: 240px;
+  border : white;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main section .img-char {
+  width: auto;
+  height: 240px;
+  margin: 0 auto;
+  padding: 10px 10px
+}
+main section .char-char-desc {
+  padding: 10px 20px;
+  text-align: left;
+  text
+}
+
+/* Galleries */
+
+
+
+/* Lore */
+
+
+
+
+/* versi diatas 800px */
+@media only screen and (min-width: 800px) {
+
+  main section {
+    display: flex;
+    padding: 25px 25px;
+    padding: 10px 50px;
+  }
+
+  /* home */
+
+
+
+  /* character */
+  main section .char-box-char {
+    width: 300px;
+    height: 300px;
+    border : white;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  main section .img-char {
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px 10px
+  }
+  main section .char-char-desc {
+    padding: 10px 20px;
+    text-align: left;
+    text
+  }
+  main section p {
+    font-family: 'Oxygen', sans-serif;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  main section h3 {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    text-shadow: 5px 5px 5px #202020;
+
+  }
+
+  /* Galleries */
+
+
+
+  /* Lore */
+  
+
+}
